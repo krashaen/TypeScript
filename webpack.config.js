@@ -46,5 +46,6 @@ module.exports = {
     contentBase: path.resolve('build'),
     host: '0.0.0.0',
     port: 8080,
+    historyApiFallback: true,
   }
 };
